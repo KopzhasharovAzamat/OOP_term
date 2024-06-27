@@ -1,0 +1,12 @@
+﻿  Carnage.cpp
+C:\Users\Adrian\Documents\KSTU\6_sem\ООП\курсовая\Carnage\Carnage\Carnage.cpp(231,26): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  C:\Users\Adrian\Documents\KSTU\6_sem\ООП\курсовая\Carnage\Carnage\Carnage.cpp(231,26):
+  the template instantiation context (the oldest one first) is
+  	C:\Users\Adrian\Documents\KSTU\6_sem\ООП\курсовая\Carnage\Carnage\Carnage.cpp(241,21):
+  	see reference to class template instantiation 'Inventory<Item>' being compiled
+  	C:\Users\Adrian\Documents\KSTU\6_sem\ООП\курсовая\Carnage\Carnage\Carnage.cpp(230,9):
+  	while compiling class template member function 'int Inventory<Item>::getSize(void) const'
+  		C:\Users\Adrian\Documents\KSTU\6_sem\ООП\курсовая\Carnage\Carnage\Carnage.cpp(343,9):
+  		see the first reference to 'Inventory<Item>::getSize' in 'GameSession::showInventory'
+  
+  Carnage.vcxproj -> C:\Users\Adrian\Documents\KSTU\6_sem\ООП\курсовая\Carnage\x64\Debug\Carnage.exe
